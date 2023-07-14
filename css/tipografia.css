@@ -1,0 +1,19 @@
+:root {
+    --cor-body: #F5F5F5;
+    --branco: #FFFFFF;
+    --cinza-escuro: #464646;
+    --azul-claro: #EAF2FD;
+    --azul-escuro: #2A7AE4;
+}
+
+.t1, .t2{
+    font-weight: 700;
+    color: var(--cinza-escuro);
+}
+.t1{
+    font-size: 3.25rem;
+}
+
+.t2{
+    font-size: 2rem;
+}
