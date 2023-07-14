@@ -33,3 +33,9 @@
     font-weight: 400;
     color: var(--cinza-escuro);
 }
+
+.icon{
+    color: var(--azul-escuro);
+    font-size: 2rem!important;
+}
+
