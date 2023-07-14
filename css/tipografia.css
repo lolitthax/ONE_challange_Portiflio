@@ -6,36 +6,41 @@
     --azul-escuro: #2A7AE4;
 }
 
-.tipo_t1, .tipo_t2{
+.tipo_t1,
+.tipo_t2 {
     font-weight: 700;
     color: var(--cinza-escuro);
 }
-.tipo_t1{
+
+.tipo_t1 {
     font-size: 3.25rem;
 }
 
-.tipo_t2{
+.tipo_t2 {
     font-size: 2rem;
 }
-.tipo_txt1, .tipo_txtbold{
+
+.tipo_txt1,
+.tipo_txtbold {
     font-size: 1rem;
     color: var(--cinza-escuro);
 }
-.tipo_txtbold{
+
+.tipo_txtbold {
     font-weight: 700;
 }
-.tipo_txt1{
+
+.tipo_txt1 {
     font-weight: 500;
 }
 
-.tipo_txt2{
-    font-size: 1.4rem ;
+.tipo_txt2 {
+    font-size: 1.4rem;
     font-weight: 400;
     color: var(--cinza-escuro);
 }
 
-.icon{
+.icon {
     color: var(--azul-escuro);
-    font-size: 2rem!important;
+    font-size: 2rem !important;
 }
-
