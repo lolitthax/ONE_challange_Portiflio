@@ -1,0 +1,13 @@
+.menu{
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 0px 2rem 0px;
+    height: 5.5rem;
+}
+.menu__item, .menu p{
+    display: inline-block;
+    margin: 2rem;
+    
+}
+ 
+

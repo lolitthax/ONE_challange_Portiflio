@@ -21,12 +21,12 @@
 }
 
 .tipo_txt1,
-.tipo_txtbold {
+.tipo_txtbold a {
     font-size: 1rem;
     color: var(--cinza-escuro);
 }
 
-.tipo_txtbold {
+.tipo_txtbold{
     font-weight: 700;
 }
 
@@ -44,3 +44,4 @@
     color: var(--azul-escuro);
     font-size: 2rem !important;
 }
+
