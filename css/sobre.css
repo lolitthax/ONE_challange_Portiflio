@@ -1,0 +1,16 @@
+.sobre{
+    display: flex;
+    padding: 4rem;
+}
+
+.sobre__intro{
+    justify-content: space-around;
+}
+
+.sobre__intro h1, p, a{
+    padding-bottom: 1rem;
+}
+.sobre__intro-img img{
+    height:368px;
+    border-radius: 100%;
+}
