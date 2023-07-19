@@ -1,0 +1,62 @@
+.experiencia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.exp__projeto {
+    display: flex;
+    justify-content: center;
+    width: 1136px;
+    margin: 1.5rem;
+
+}
+
+.exp__projeto img {
+    width: 800px;
+    height: 406px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.experiencia h2 {
+    width: 100%;
+    text-align: center;
+    padding: 2rem;
+}
+
+.exp__projeto-descricao {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+
+}
+.exp__projeto-descricao div{
+    margin-top: 1rem;
+}
+
+.btn-repositorio {
+    border: 1px solid var(--azul-escuro);
+    color: var(--azul-escuro);
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 1rem ;
+}
+.btn-repositorio:hover{
+    background-color: var(--azul-btn-repos);
+    transition: 1s;
+}
+
+.btn-demo{
+    border: 1px solid var(--azul-escuro);
+    color: var(--branco);
+    background-color: var(--azul-escuro);
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 1rem ;
+}
+
+.btn-demo:hover{
+    background-color: var(--azul-btn-demo);
+    transition: 1s;
+}

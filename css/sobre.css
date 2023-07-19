@@ -1,30 +1,34 @@
-.sobre{
+.sobre {
     display: flex;
-    padding: 4rem;
+    padding: 1.5rem 10%;
 }
 
-.sobre__intro{
+.sobre__intro {
     justify-content: space-around;
 }
 
-.sobre__intro h1, p, a{
+.sobre__intro h1,
+p,
+a {
     padding-bottom: 1rem;
 }
-.sobre__intro-img img{
-    height:23rem;
+
+.sobre__intro-img img {
+    height: 23rem;
     border-radius: 100%;
 }
-.sobre__descricao{
+
+.sobre__descricao {
     display: flex;
     justify-content: center;
     background-color: var(--azul-claro);
     height: 15.6rem;
-    padding: 1.5rem;
+    padding: 1.5rem 10%;
+    align-items: center;
 
 }
-.sobre__container{
-    width: 90%;
-}
-.sobre__descricao-subtitulo{
+
+
+.sobre__descricao-subtitulo {
     padding-bottom: 1rem;
 }
