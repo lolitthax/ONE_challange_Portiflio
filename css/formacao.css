@@ -1,0 +1,6 @@
+.formacao{
+    display: flex;
+    padding: 4rem;
+    justify-content: center;
+    flex-flow: wrap;
+}

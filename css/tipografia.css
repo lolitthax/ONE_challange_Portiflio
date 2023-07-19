@@ -28,6 +28,7 @@
 
 .tipo_txtbold{
     font-weight: 700;
+    color: var(--cinza-escuro);
 }
 
 .tipo_txt1 {

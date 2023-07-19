@@ -6,16 +6,16 @@
     flex-flow: wrap;
 }
 
-.skills>h3,
-.hobbies>h3 {
+.skills>h2,
+.hobbies>h2 {
     width: 100%;
     text-align: center;
     padding-bottom: 2rem;
 }
 
 .card {
-    width: 174px;
-    height: 174px;
+    width: 10.8rem;
+    height: 10.8rem;
     background-color: var(--branco);
     margin: 0px 0.62rem;
     display: flex;

@@ -11,14 +11,14 @@
     padding-bottom: 1rem;
 }
 .sobre__intro-img img{
-    height:368px;
+    height:23rem;
     border-radius: 100%;
 }
 .sobre__descricao{
     display: flex;
     justify-content: center;
     background-color: var(--azul-claro);
-    height: 250px;
+    height: 15.6rem;
     padding: 1.5rem;
 
 }
