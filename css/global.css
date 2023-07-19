@@ -5,7 +5,8 @@
 @import url('menu.css');
 /* SOBRE */
 @import url('sobre.css');
-
+/* SKILLS E HOBBIES*/
+@import url('skills-hobbies.css');
 
 body {
     font-family: 'Raleway', sans-serif;

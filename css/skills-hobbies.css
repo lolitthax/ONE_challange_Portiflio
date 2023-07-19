@@ -1,0 +1,29 @@
+.skills,
+.hobbies {
+    display: flex;
+    padding: 4rem;
+    justify-content: center;
+    flex-flow: wrap;
+}
+
+.skills>h3,
+.hobbies>h3 {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.card {
+    width: 174px;
+    height: 174px;
+    background-color: var(--branco);
+    margin: 0px 0.62rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.card i,
+.card span,
+.card p{
+    padding-left: 0.62rem;
+}
