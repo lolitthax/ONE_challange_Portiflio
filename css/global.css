@@ -2,15 +2,15 @@
 @import url('tipografia.css');
 
 /* CSS MENU */
-@import url('menu.css');
+@import url('./components/menu.css');
 /* SOBRE */
-@import url('sobre.css');
+@import url('./components/sobre.css');
 /* SKILLS E HOBBIES*/
-@import url('skills-hobbies.css');
+@import url('./components/skills-hobbies.css');
 /* FORMAÇÃO */
-@import url('formacao.css');
+@import url('./components/formacao.css');
 /* EXPERIÊNCIA PROFISSIONAL */
-@import url('experiencia.css');
+@import url('./components/experiencia.css');
 
 :root {
     --cor-body: #F5F5F5;
