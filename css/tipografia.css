@@ -1,11 +1,3 @@
-:root {
-    --cor-body: #F5F5F5;
-    --branco: #FFFFFF;
-    --cinza-escuro: #464646;
-    --azul-claro: #EAF2FD;
-    --azul-escuro: #2A7AE4;
-}
-
 .tipo_t1,
 .tipo_t2 {
     font-weight: 700;

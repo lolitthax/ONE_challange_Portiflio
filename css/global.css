@@ -10,6 +10,14 @@
 /* FORMAÇÃO */
 @import url('formacao.css');
 
+:root {
+    --cor-body: #F5F5F5;
+    --branco: #FFFFFF;
+    --cinza-escuro: #464646;
+    --azul-claro: #EAF2FD;
+    --azul-escuro: #2A7AE4;
+}
+
 body {
     font-family: 'Raleway', sans-serif;
     background-color: var(--cor-body);
