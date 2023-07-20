@@ -11,6 +11,8 @@
 @import url('./components/formacao.css');
 /* EXPERIÊNCIA PROFISSIONAL */
 @import url('./components/experiencia.css');
+/* CONTATO */
+@import url('./components/contato.css');
 
 :root {
     --cor-body: #F5F5F5;
