@@ -1,0 +1,25 @@
+.btn-p1 {
+    border: 1px solid var(--azul-escuro);
+    color: var(--azul-escuro);
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 1rem ;
+}
+.btn-p1:hover{
+    background-color: var(--azul-btn-repos);
+    transition: 1s;
+}
+
+.btn-p2{
+    border: 1px solid var(--azul-escuro);
+    color: var(--branco);
+    background-color: var(--azul-escuro);
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 1rem ;
+}
+
+.btn-p2:hover{
+    background-color: var(--azul-btn-demo);
+    transition: 1s;
+}
