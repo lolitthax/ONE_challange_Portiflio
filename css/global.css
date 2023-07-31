@@ -29,6 +29,6 @@
 body {
     font-family: 'Raleway', sans-serif;
     background-color: var(--cor-body);
-    overflow-x: hidden;
+    overflow-x:hidden;
 
 }
