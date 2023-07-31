@@ -2,9 +2,9 @@
     display: flex;
     padding: 4rem;
     justify-content: center;
-    flex-flow: wrap;
+    flex-wrap: wrap;
     background-color: var(--azul-claro);
-    
+
 }
 
 .formacao h2 {
@@ -38,3 +38,28 @@ dd {
     height: 130px;
 
 }
+
+@media (max-width: 768px) {
+    .formacao h2 {
+        margin-bottom: 1.5rem;
+    }
+
+    .formacao__card {
+        width: 33%;
+    }
+
+    .formacao__card-item {
+        padding: 16px;
+        width: 10rem;
+        height: 5rem;
+
+    }
+
+    .formacao__card-item img {
+        width: 100px;
+        height: 100px;
+    }
+
+}
+
+@media (max-width: 360px) {}

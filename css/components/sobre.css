@@ -35,7 +35,25 @@ a {
 
 }
 
-
 .sobre__descricao-subtitulo {
     padding-bottom: 1rem;
+}
+@media (max-width: 768px){
+    .sobre {
+        padding: 1rem 5%;
+    }
+    .sobre__intro-img img {
+        height: 9rem;
+    }
+    .sobre__descricao {
+        padding: 1.2rem;
+    }
+    
+}
+
+@media (max-width: 360px){
+    .sobre__intro-img img {
+        height: 6rem;
+    }
+   
 }

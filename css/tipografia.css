@@ -42,3 +42,26 @@
     font-size: 2rem !important;
 }
 
+@media (max-width: 768px) {
+
+    .tipo_t1,
+    .tipo_t2 {
+        font-size: 1.3rem;
+    }
+
+    .tipo_txt2,
+    .tipo_txt1,
+    .tipo_txtbold {
+        font-size: 1rem;
+    }
+
+}
+
+@media (max-width: 360px) {
+
+    .tipo_txt2,
+    .tipo_txt1,
+    .tipo_txtbold {
+        font-size: 0.875rem;
+    }
+}

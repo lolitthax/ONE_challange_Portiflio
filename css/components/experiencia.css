@@ -8,7 +8,6 @@
 .exp__projeto {
     display: flex;
     justify-content: center;
-    width: 1136px;
     margin: 1.5rem;
 
 }
@@ -31,7 +30,22 @@
     flex-direction: column;
 
 }
-.exp__projeto-descricao div{
+
+.exp__projeto-descricao div {
     margin-top: 1rem;
 }
 
+@media (max-width: 768px) {
+    .exp__projeto {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .exp__projeto img {
+        width: 650px;
+        order: -1;
+    }
+
+}
+
+@media (max-width: 360px) {}
