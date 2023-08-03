@@ -30,6 +30,7 @@
 }
 
 @media (max-width: 768px) {
+
     .skills,
     .hobbies {
         flex-direction: row;
@@ -43,4 +44,15 @@
     }
 }
 
-@media (max-width: 360px) {}
+@media (max-width: 360px) {
+
+    .skills,
+    .hobbies {
+        padding: 2rem;
+    }
+
+    .card {
+        width: 6.9rem;
+        height: 8.8rem;
+    }
+}

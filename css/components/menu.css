@@ -1,32 +1,34 @@
-.menu{
+.menu {
     display: flex;
     justify-content: space-around;
     padding: 2rem 0px 2rem 0px;
     height: 5.5rem;
 }
 
-.menu__item{
+.menu__item {
     display: inline-block;
     margin: 2rem;
-    
+
 }
-.menu__item:hover{
+
+.menu__item:hover {
     text-decoration: underline;
 }
-.logotipo{
+
+.logotipo {
     display: inline-block;
     padding: 1.2rem;
 }
-@media (max-width: 768px){
-    .menu__item:nth-child( -n + 5){
+
+@media (max-width: 768px) {
+    .menu__item:nth-child(-n + 5) {
         display: none;
     }
- 
+
 }
 
-@media (max-width: 360px){
-    
+@media (max-width: 360px) {
+    .menu {
+        padding: 1rem 0px 1rem 0px;
+    }
 }
-
- 
-
