@@ -52,8 +52,20 @@ p {
     font-size: 1.5rem;
 }
 
-.error {
+.error,
+#emailError,
+#nomeError,
+#assuntoError,
+#mensagemError {
     color: crimson;
+}
+
+#emailError,
+#nomeError,
+#assuntoError,
+#mensagemError {
+    font-weight: bold;
+    font-size: 12px;
 }
 
 .success {

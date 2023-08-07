@@ -28,22 +28,67 @@ class FormSubmit {
   
     onSubmission(event) {
       event.preventDefault();
+
+      const nome = document.getElementById("nome").value;
+      const nomeError = document.getElementById("nomeError");
+      const email = document.getElementById("email");
+      const emailError = document.getElementById("emailError");
+      const assunto = document.getElementById("assunto").value;
+      const assuntoError = document.getElementById("assuntoError");
+      const mensagem = document.getElementById("mensagem").value;
+      const mensagemError = document.getElementById("mensagemError");
+
+      if (nome === '') {
+        nomeError.textContent = "Digite seu nome";
+        return false;
+      } else {
+        nomeError.textContent = "";
+      }
+
+      if (!email.validity.valid) {
+        if (email.validity.valueMissing) {
+          emailError.textContent = "Digite um endereço de email";
+          return false;
+        } else if (email.validity.typeMismatch) {
+          emailError.textContent = "Digite um endereço de email valido";
+          return false;
+        } 
+      } else {
+        emailError.textContent = "";
+      }
+
+      if (assunto === '') {
+        assuntoError.textContent = "Digite o assunto";
+        return false;
+      } else {
+        assuntoError.textContent = "";
+      }
+
+      if (mensagem === '') {
+        mensagemError.textContent = "Digite sua mensagem";
+        return false;
+      } else {
+        mensagemError.textContent = "";
+      }
+
       event.target.disabled = true;
       event.target.innerText = "Enviando...";
+      return true;
     }
   
     async sendForm(event) {
       try {
-        this.onSubmission(event);
-        await fetch(this.url, {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-            Accept: "application/json",
-          },
-          body: JSON.stringify(this.getFormObject()),
-        });
-        this.displaySuccess();
+        if (this.onSubmission(event)) {
+          await fetch(this.url, {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+              Accept: "application/json",
+            },
+            body: JSON.stringify(this.getFormObject()),
+          });
+          this.displaySuccess();
+        }
       } catch (error) {
         this.displayError();
         throw new Error(error);
@@ -63,3 +108,6 @@ class FormSubmit {
     error: "<h3 class='error'>Houve um erro ao enviar sua mensagem.</h3>",
   });
   formSubmit.init();
+
+
+  
