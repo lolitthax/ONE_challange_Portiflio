@@ -97,7 +97,7 @@ textarea {
     }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 414px) {
     .contato__form-item {
         width: 100%;
     }

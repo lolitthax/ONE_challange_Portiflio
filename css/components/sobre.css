@@ -57,7 +57,7 @@ a {
 
 }
 
-@media (max-width: 360px) {
+@media (max-width: 414px) {
     .sobre {
         flex-wrap: wrap;
     }
@@ -76,7 +76,7 @@ a {
 
     .sobre__descricao {
         display: block;
-        height: 21.6rem;
+        height: 25.6rem;
     }
 
 }
