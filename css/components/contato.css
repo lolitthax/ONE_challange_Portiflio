@@ -75,14 +75,17 @@ p {
 textarea {
     resize: none;
 }
+@media (max-width: 912px){
+
+    .contato__img {
+        display: none;
+    }
+
+}
 
 @media (max-width: 768px) {
     .contato {
         justify-content: flex-start;
-    }
-
-    .contato__img {
-        display: none;
     }
 
     .contato__formulario h2,

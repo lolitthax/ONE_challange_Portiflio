@@ -42,7 +42,7 @@
     font-size: 2rem !important;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 912px) {
 
     .tipo_t1,
     .tipo_t2 {
@@ -57,7 +57,7 @@
 
 }
 
-@media (max-width: 360px) {
+@media (max-width: 414px) {
 
     .tipo_txt2,
     .tipo_txt1,

@@ -38,7 +38,7 @@
     margin-top: 1rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 920px){
     .exp__projeto {
         flex-direction: column;
         justify-content: center;
@@ -48,8 +48,8 @@
         width: 650px;
         order: -1;
     }
-
 }
+
 
 @media (max-width: 414px) {
     .exp__projeto {
